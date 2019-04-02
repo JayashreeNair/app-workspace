@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of components-library
+ */
+export { ComponentsLibraryService } from './lib/components-library.service';
+export { ComponentsLibraryComponent } from './lib/components-library.component';
+export { ComponentsLibraryModule } from './lib/components-library.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2NvbXBvbmVudHMtbGlicmFyeS8iLCJzb3VyY2VzIjpbInB1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLHlDQUFjLGtDQUFrQyxDQUFDO0FBQ2pELDJDQUFjLG9DQUFvQyxDQUFDO0FBQ25ELHdDQUFjLGlDQUFpQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBjb21wb25lbnRzLWxpYnJhcnlcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzLWxpYnJhcnkuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzLWxpYnJhcnkuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvbXBvbmVudHMtbGlicmFyeS5tb2R1bGUnO1xuIl19
