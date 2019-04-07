@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 /**
- * ComponentsLibraryComponent description
- *
- * see {@link http://www.google.fr}
- * see {@link Second link}
- * see {@link http://www.google.uk Third link}
- * see [Last link]{@link http://www.google.jp}
- *
+ * {@link https://stackblitz.com/edit/angular-sw5vxm?embed=1&file=src/app/app.module.ts}
  */
-
 
 @Component({
   selector: 'lib-components-library',
@@ -21,6 +14,9 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class ComponentsLibraryComponent implements OnInit {
+
+  @Input()
+  name = 'default';
 
   constructor() { }
 
