@@ -8,30 +8,33 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
-    var ComponentsLibraryComponent = (function () {
-        function ComponentsLibraryComponent() {
+    /**
+     * {\@link https://stackblitz.com/edit/angular-sw5vxm?embed=1&file=src/app/app.module.ts}
+     */
+    var LibraryButtonComponent = (function () {
+        function LibraryButtonComponent() {
             this.name = 'default';
         }
         /**
          * @return {?}
          */
-        ComponentsLibraryComponent.prototype.ngOnInit = /**
+        LibraryButtonComponent.prototype.ngOnInit = /**
          * @return {?}
          */
             function () {
             };
-        ComponentsLibraryComponent.decorators = [
+        LibraryButtonComponent.decorators = [
             { type: core.Component, args: [{
-                        selector: 'lib-components-library',
-                        template: "\n    <p>\n      components-library works!\n    </p>\n  ",
+                        selector: 'lib-button',
+                        template: "<button type=\"button\">Click Me!</button>\n",
                         styles: []
                     },] },
         ];
-        ComponentsLibraryComponent.ctorParameters = function () { return []; };
-        ComponentsLibraryComponent.propDecorators = {
+        LibraryButtonComponent.ctorParameters = function () { return []; };
+        LibraryButtonComponent.propDecorators = {
             name: [{ type: core.Input }]
         };
-        return ComponentsLibraryComponent;
+        return LibraryButtonComponent;
     }());
 
     /**
@@ -44,8 +47,8 @@
         ComponentsLibraryModule.decorators = [
             { type: core.NgModule, args: [{
                         imports: [],
-                        declarations: [ComponentsLibraryComponent],
-                        exports: [ComponentsLibraryComponent]
+                        declarations: [LibraryButtonComponent],
+                        exports: [LibraryButtonComponent]
                     },] },
         ];
         return ComponentsLibraryModule;
@@ -61,11 +64,11 @@
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    exports.ComponentsLibraryComponent = ComponentsLibraryComponent;
+    exports.LibraryButtonComponent = LibraryButtonComponent;
     exports.ComponentsLibraryModule = ComponentsLibraryModule;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWJ6LWNvbXBvbmVudHMtbGlicmFyeS51bWQuanMubWFwIiwic291cmNlcyI6WyJuZzovL2Fiei1jb21wb25lbnRzLWxpYnJhcnkvbGliL2NvbXBvbmVudHMtbGlicmFyeS5jb21wb25lbnQudHMiLCJuZzovL2Fiei1jb21wb25lbnRzLWxpYnJhcnkvbGliL2NvbXBvbmVudHMtbGlicmFyeS5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnQsIElucHV0LCBPbkluaXR9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5AQ29tcG9uZW50KHtcbiAgc2VsZWN0b3I6ICdsaWItY29tcG9uZW50cy1saWJyYXJ5JyxcbiAgdGVtcGxhdGU6IGBcbiAgICA8cD5cbiAgICAgIGNvbXBvbmVudHMtbGlicmFyeSB3b3JrcyFcbiAgICA8L3A+XG4gIGAsXG4gIHN0eWxlczogW11cbn0pXG5leHBvcnQgY2xhc3MgQ29tcG9uZW50c0xpYnJhcnlDb21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xuXG4gIEBJbnB1dCgpXG4gIG5hbWUgPSAnZGVmYXVsdCc7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICBuZ09uSW5pdCgpIHtcbiAgfVxuXG59XG4iLCJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tcG9uZW50c0xpYnJhcnlDb21wb25lbnQgfSBmcm9tICcuL2NvbXBvbmVudHMtbGlicmFyeS5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzOiBbXG4gIF0sXG4gIGRlY2xhcmF0aW9uczogW0NvbXBvbmVudHNMaWJyYXJ5Q29tcG9uZW50XSxcbiAgZXhwb3J0czogW0NvbXBvbmVudHNMaWJyYXJ5Q29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBDb21wb25lbnRzTGlicmFyeU1vZHVsZSB7IH1cbiJdLCJuYW1lcyI6WyJDb21wb25lbnQiLCJJbnB1dCIsIk5nTW9kdWxlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7UUFnQkU7WUFGQSxTQUFJLEdBQUcsU0FBUyxDQUFDO1NBRUE7Ozs7UUFFakIsNkNBQVE7OztZQUFSO2FBQ0M7O29CQWpCRkEsY0FBUyxTQUFDO3dCQUNULFFBQVEsRUFBRSx3QkFBd0I7d0JBQ2xDLFFBQVEsRUFBRSwwREFJVDt3QkFDRCxNQUFNLEVBQUUsRUFBRTtxQkFDWDs7OzsyQkFHRUMsVUFBSzs7UUFRUixpQ0FBQztLQUFBOzs7Ozs7QUNyQkQ7UUFHQTtTQU13Qzs7b0JBTnZDQyxhQUFRLFNBQUM7d0JBQ1IsT0FBTyxFQUFFLEVBQ1I7d0JBQ0QsWUFBWSxFQUFFLENBQUMsMEJBQTBCLENBQUM7d0JBQzFDLE9BQU8sRUFBRSxDQUFDLDBCQUEwQixDQUFDO3FCQUN0Qzs7UUFDc0MsOEJBQUM7S0FBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWJ6LWNvbXBvbmVudHMtbGlicmFyeS51bWQuanMubWFwIiwic291cmNlcyI6WyJuZzovL2Fiei1jb21wb25lbnRzLWxpYnJhcnkvbGliL2xpYnJhcnktYnV0dG9uLmNvbXBvbmVudC50cyIsIm5nOi8vYWJ6LWNvbXBvbmVudHMtbGlicmFyeS9saWIvY29tcG9uZW50cy1saWJyYXJ5Lm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudCwgSW5wdXQsIE9uSW5pdH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbi8qKlxuICoge0BsaW5rIGh0dHBzOi8vc3RhY2tibGl0ei5jb20vZWRpdC9hbmd1bGFyLXN3NXZ4bT9lbWJlZD0xJmZpbGU9c3JjL2FwcC9hcHAubW9kdWxlLnRzfVxuICovXG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ2xpYi1idXR0b24nLFxuICB0ZW1wbGF0ZTogYDxidXR0b24gdHlwZT1cImJ1dHRvblwiPkNsaWNrIE1lITwvYnV0dG9uPlxuYCxcbiAgc3R5bGVzOiBbXVxufSlcbmV4cG9ydCBjbGFzcyBMaWJyYXJ5QnV0dG9uQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcblxuICBASW5wdXQoKVxuICBuYW1lID0gJ2RlZmF1bHQnO1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG5cbiAgbmdPbkluaXQoKSB7XG4gIH1cblxufVxuIiwiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IExpYnJhcnlCdXR0b25Db21wb25lbnQgfSBmcm9tICcuL2xpYnJhcnktYnV0dG9uLmNvbXBvbmVudCc7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtcbiAgXSxcbiAgZGVjbGFyYXRpb25zOiBbTGlicmFyeUJ1dHRvbkNvbXBvbmVudF0sXG4gIGV4cG9ydHM6IFtMaWJyYXJ5QnV0dG9uQ29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBDb21wb25lbnRzTGlicmFyeU1vZHVsZSB7IH1cbiJdLCJuYW1lcyI6WyJDb21wb25lbnQiLCJJbnB1dCIsIk5nTW9kdWxlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7OztBQU1BO1FBV0U7WUFGQSxTQUFJLEdBQUcsU0FBUyxDQUFDO1NBRUE7Ozs7UUFFakIseUNBQVE7OztZQUFSO2FBQ0M7O29CQWRGQSxjQUFTLFNBQUM7d0JBQ1QsUUFBUSxFQUFFLFlBQVk7d0JBQ3RCLFFBQVEsRUFBRSw4Q0FDWDt3QkFDQyxNQUFNLEVBQUUsRUFBRTtxQkFDWDs7OzsyQkFHRUMsVUFBSzs7UUFRUiw2QkFBQztLQUFBOzs7Ozs7QUN0QkQ7UUFHQTtTQU13Qzs7b0JBTnZDQyxhQUFRLFNBQUM7d0JBQ1IsT0FBTyxFQUFFLEVBQ1I7d0JBQ0QsWUFBWSxFQUFFLENBQUMsc0JBQXNCLENBQUM7d0JBQ3RDLE9BQU8sRUFBRSxDQUFDLHNCQUFzQixDQUFDO3FCQUNsQzs7UUFDc0MsOEJBQUM7S0FBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=

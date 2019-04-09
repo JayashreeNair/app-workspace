@@ -5,15 +5,11 @@ import {Component, Input, OnInit} from '@angular/core';
  */
 
 @Component({
-  selector: 'lib-components-library',
-  template: `
-    <p>
-      components-library works!
-    </p>
-  `,
+  selector: 'lib-button',
+  templateUrl : './library-button.html',
   styles: []
 })
-export class ComponentsLibraryComponent implements OnInit {
+export class LibraryButtonComponent implements OnInit {
 
   @Input()
   name = 'default';

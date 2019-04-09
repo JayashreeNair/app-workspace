@@ -40,8 +40,7 @@ const dependencies = {
   '@angular/router': angularVersion,
   'core-js': '2.6.5',
   'rxjs': '>=6.0.0-beta.0 <7.0.0',
-  'zone.js': '^0.8.14',
-  'abz-component-library': '0.0.1'
+  'zone.js': '^0.8.14'
 };
 
 /**
@@ -129,10 +128,12 @@ export class StackblitzWriter {
             filename: string,
             path: string,
             prependApp = true): void {
-    this._http.get(path + filename, {responseType: 'text'}).subscribe(
-      response => this._addFileToForm(form, data, response, filename, path, prependApp),
-      error => console.log(error)
-    );
+    // this._http.get(path + filename, {responseType: 'text'}).subscribe(
+    //   response => this._addFileToForm(form, data, response, filename, path, prependApp),
+    //   error => console.log(error)
+    // );
+
+    this._addFileToForm(form, data, path + filename, filename, path, prependApp);
   }
 
   /**

@@ -2,7 +2,7 @@ import {ListComponentsComponent} from '../../pages/component-list/list-component
 
 export const EXAMPLE_COMPONENTS = {
     "example1": {
-        "title": "Highlight the first autocomplete option",
+        "title": "Library Component",
         "component": ListComponentsComponent,
         "additionalFiles": [],
         "selectorName": ""
