@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9007b5-f258-4271-9181-cf51cdf0c25f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/components-library/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/components-library/src/lib/library-button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/docs-content/examples-source/example1-example.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/docs-content/examples-source/example1-example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/docs-content/examples-source/example1-example.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/publish_local_registry.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/abz-components-library-0.0.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/abz-components-library-0.0.1.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/abz-components-library.metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/abz-components-library.metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/bundles/abz-components-library.umd.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/components-library-0.0.1.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/components-library.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/components-library.metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm2015/abz-components-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm2015/abz-components-library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm2015/lib/components-library.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm2015/lib/components-library.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm2015/public_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm2015/public_api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm5/abz-components-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm5/abz-components-library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm5/lib/components-library.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm5/lib/components-library.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/esm5/public_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/esm5/public_api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/fesm2015/abz-components-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/fesm2015/abz-components-library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/fesm2015/abz-components-library.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/fesm2015/abz-components-library.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/fesm5/abz-components-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/fesm5/abz-components-library.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/fesm5/abz-components-library.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/fesm5/abz-components-library.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components-library/public_api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components-library/public_api.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/components/ComponentsLibraryComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/components/ComponentsLibraryComponent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/components/ExampleConsumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/components/ExampleConsumer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/coverage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/graph/dependencies.svg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/graph/dependencies.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/injectables/ComponentsLibraryService.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/injectables/ComponentsLibraryService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/js/search/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/js/search/search_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/modules/ComponentsLibraryModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/modules/ComponentsLibraryModule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/modules/ComponentsLibraryModule/dependencies.svg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/modules/ComponentsLibraryModule/dependencies.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/modules/ExamplesModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/modules/ExamplesModule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/ng-package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/ng-package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/src/lib/library-button.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/src/lib/library-button.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/src/lib/components-library.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/examples/example-consumer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/examples/example-consumer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/examples/examples.module.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/lib/examples/examples.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/components-library/src/public_api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/components-library/src/public_api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/consumer-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/consumer-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/consumer-app/src/app/pages/component-list/list-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/pages/component-list/list-components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/consumer-app/src/app/shared/stackblitz/example-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/shared/stackblitz/example-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/consumer-app/src/app/shared/stackblitz/stackblitz-writer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/consumer-app/src/app/shared/stackblitz/stackblitz-writer.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -88,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="435">
-                <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <first_editor relative-caret-position="450">
+                <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -217,7 +157,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554771489919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554772926918" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -293,18 +233,18 @@
       <updated>1554160280269</updated>
       <workItem from="1554160287404" duration="6757000" />
       <workItem from="1554303941804" duration="45728000" />
-      <workItem from="1554770106768" duration="819000" />
+      <workItem from="1554770106768" duration="1295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53304000" />
+    <option name="totallyTimeSpent" value="53780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="987" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -320,7 +260,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3441341" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3441341" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -630,8 +570,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
