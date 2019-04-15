@@ -1,2 +1,2 @@
-export * from './lib/components-library.component';
+export * from './lib/library-button.component';
 export * from './lib/components-library.module';

@@ -55,35 +55,26 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/ComponentsLibraryModule.html" data-type="entity-link">ComponentsLibraryModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-ComponentsLibraryModule-20e7c5353fe9a615d4bd50fbfb2f8880"' : 'data-target="#xs-components-links-module-ComponentsLibraryModule-20e7c5353fe9a615d4bd50fbfb2f8880"' }>
+                                            'data-target="#components-links-module-ComponentsLibraryModule-b92af0fe546d3aec429656a7cde45d51"' : 'data-target="#xs-components-links-module-ComponentsLibraryModule-b92af0fe546d3aec429656a7cde45d51"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-ComponentsLibraryModule-20e7c5353fe9a615d4bd50fbfb2f8880"' :
-                                            'id="xs-components-links-module-ComponentsLibraryModule-20e7c5353fe9a615d4bd50fbfb2f8880"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-ComponentsLibraryModule-b92af0fe546d3aec429656a7cde45d51"' :
+                                            'id="xs-components-links-module-ComponentsLibraryModule-b92af0fe546d3aec429656a7cde45d51"' }>
                                             <li class="link">
-                                                <a href="components/ComponentsLibraryComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">ComponentsLibraryComponent</a>
+                                                <a href="components/LibraryButtonComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">LibraryButtonComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/LibraryCheckboxComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">LibraryCheckboxComponent</a>
                                             </li>
                                         </ul>
                                     </li>
                             </li>
                 </ul>
                 </li>
-                        <li class="chapter">
-                            <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#injectables-links"' :
-                                'data-target="#xs-injectables-links"' }>
-                                <span class="icon ion-md-arrow-round-down"></span>
-                                <span>Injectables</span>
-                                <span class="icon ion-ios-arrow-down"></span>
-                            </div>
-                            <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links"' : 'id="xs-injectables-links"' }>
-                                <li class="link">
-                                    <a href="injectables/ComponentsLibraryService.html" data-type="entity-link">ComponentsLibraryService</a>
-                                </li>
-                            </ul>
-                        </li>
                     <li class="chapter">
                         <a data-type="chapter-link" href="coverage.html"><span class="icon ion-ios-stats"></span>Documentation coverage</a>
                     </li>

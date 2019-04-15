@@ -22,45 +22,69 @@
 <text text-anchor="start" x="429.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
 <g id="clust1" class="cluster">
 <title>cluster_ComponentsLibraryModule</title>
-<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="150,-70 150,-268 346,-268 346,-70 150,-70"/>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="49,-70 49,-268 447,-268 447,-70 49,-70"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_ComponentsLibraryModule_declarations</title>
-<polygon fill="none" stroke="#000000" points="159,-78 159,-130 337,-130 337,-78 159,-78"/>
+<polygon fill="none" stroke="#000000" points="60,-78 60,-130 436,-130 436,-78 60,-78"/>
 </g>
-<g id="clust5" class="cluster">
+<g id="clust6" class="cluster">
 <title>cluster_ComponentsLibraryModule_exports</title>
-<polygon fill="none" stroke="#000000" points="158,-208 158,-260 338,-260 338,-208 158,-208"/>
+<polygon fill="none" stroke="#000000" points="57,-208 57,-260 439,-260 439,-208 57,-208"/>
 </g>
 <!-- LibraryButtonComponent -->
 <g id="node1" class="node">
 <title>LibraryButtonComponent</title>
-<polygon fill="#ffffb3" stroke="#000000" points="328.9298,-122 167.0702,-122 167.0702,-86 328.9298,-86 328.9298,-122"/>
-<text text-anchor="middle" x="248" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryButtonComponent</text>
+<polygon fill="#ffffb3" stroke="#000000" points="427.9298,-122 266.0702,-122 266.0702,-86 427.9298,-86 427.9298,-122"/>
+<text text-anchor="middle" x="347" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryButtonComponent</text>
 </g>
 <!-- ComponentsLibraryModule -->
-<g id="node2" class="node">
+<g id="node3" class="node">
 <title>ComponentsLibraryModule</title>
-<polygon fill="#8dd3c7" stroke="#000000" points="334.3061,-187 331.3061,-191 310.3061,-191 307.3061,-187 161.6939,-187 161.6939,-151 334.3061,-151 334.3061,-187"/>
-<text text-anchor="middle" x="248" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">ComponentsLibraryModule</text>
+<polygon fill="#8dd3c7" stroke="#000000" points="245.3061,-187 242.3061,-191 221.3061,-191 218.3061,-187 72.6939,-187 72.6939,-151 245.3061,-151 245.3061,-187"/>
+<text text-anchor="middle" x="159" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">ComponentsLibraryModule</text>
 </g>
 <!-- LibraryButtonComponent&#45;&gt;ComponentsLibraryModule -->
 <g id="edge1" class="edge">
 <title>LibraryButtonComponent&#45;&gt;ComponentsLibraryModule</title>
-<path fill="none" stroke="#000000" d="M248,-122.1061C248,-122.1061 248,-140.991 248,-140.991"/>
-<polygon fill="#000000" stroke="#000000" points="244.5001,-140.9909 248,-150.991 251.5001,-140.991 244.5001,-140.9909"/>
+<path fill="none" stroke="#000000" d="M373.9882,-122.0225C373.9882,-139.3734 373.9882,-163 373.9882,-163 373.9882,-163 255.2052,-163 255.2052,-163"/>
+<polygon fill="#000000" stroke="#000000" points="255.2052,-159.5001 245.2052,-163 255.2051,-166.5001 255.2052,-159.5001"/>
+</g>
+<!-- LibraryCheckboxComponent -->
+<g id="node2" class="node">
+<title>LibraryCheckboxComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="248.0772,-122 67.9228,-122 67.9228,-86 248.0772,-86 248.0772,-122"/>
+<text text-anchor="middle" x="158" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryCheckboxComponent</text>
+</g>
+<!-- LibraryCheckboxComponent&#45;&gt;ComponentsLibraryModule -->
+<g id="edge2" class="edge">
+<title>LibraryCheckboxComponent&#45;&gt;ComponentsLibraryModule</title>
+<path fill="none" stroke="#000000" d="M159,-122.1061C159,-122.1061 159,-140.991 159,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="155.5001,-140.9909 159,-150.991 162.5001,-140.991 155.5001,-140.9909"/>
 </g>
 <!-- LibraryButtonComponent  -->
-<g id="node3" class="node">
+<g id="node4" class="node">
 <title>LibraryButtonComponent </title>
-<polygon fill="#fb8072" stroke="#000000" points="330.4292,-252 165.5708,-252 165.5708,-216 330.4292,-216 330.4292,-252"/>
-<text text-anchor="middle" x="248" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryButtonComponent </text>
+<polygon fill="#fb8072" stroke="#000000" points="431.4292,-252 266.5708,-252 266.5708,-216 431.4292,-216 431.4292,-252"/>
+<text text-anchor="middle" x="349" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryButtonComponent </text>
 </g>
 <!-- ComponentsLibraryModule&#45;&gt;LibraryButtonComponent  -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>ComponentsLibraryModule&#45;&gt;LibraryButtonComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M248,-187.1061C248,-187.1061 248,-205.991 248,-205.991"/>
-<polygon fill="#000000" stroke="#000000" points="244.5001,-205.9909 248,-215.991 251.5001,-205.991 244.5001,-205.9909"/>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M245.2961,-175C283.6373,-175 320.2618,-175 320.2618,-175 320.2618,-175 320.2618,-205.9775 320.2618,-205.9775"/>
+<polygon fill="#000000" stroke="#000000" points="316.7619,-205.9774 320.2618,-215.9775 323.7619,-205.9775 316.7619,-205.9774"/>
+</g>
+<!-- LibraryCheckboxComponent  -->
+<g id="node5" class="node">
+<title>LibraryCheckboxComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="248.5777,-252 65.4223,-252 65.4223,-216 248.5777,-216 248.5777,-252"/>
+<text text-anchor="middle" x="157" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibraryCheckboxComponent </text>
+</g>
+<!-- ComponentsLibraryModule&#45;&gt;LibraryCheckboxComponent  -->
+<g id="edge4" class="edge">
+<title>ComponentsLibraryModule&#45;&gt;LibraryCheckboxComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M159,-187.1061C159,-187.1061 159,-205.991 159,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="155.5001,-205.9909 159,-215.991 162.5001,-205.991 155.5001,-205.9909"/>
 </g>
 </g>
 </svg>

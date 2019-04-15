@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 /**
- * {@link https://stackblitz.com/edit/angular-sw5vxm?embed=1&file=src/app/app.module.ts}
+ * Examples:  <example-url>https://stackblitz.com/edit/angular-sw5vxm?embed=1&file=src/app/app.module.ts</example-url>
  */
 
 @Component({

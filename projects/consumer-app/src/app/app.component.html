@@ -1,2 +1,15 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened class="example-sidenav">
+        <ul *ngFor="let ex of examples">
+            {{ex.name}}
+            <ul>
+                <li *ngFor="let i of ex.docItems">
+                    <a [routerLink]="[i.name]">{{i.name}}</a>
+                </li>
+            </ul>
+        </ul>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

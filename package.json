@@ -1,6 +1,9 @@
 {
   "name": "app-workspace",
   "version": "0.0.0",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve consumer-app",
@@ -8,9 +11,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "pree2e": "npm install abz-components-library --registry http://localhost:4000",
     "pack:lib": "cd dist/components-library && npm pack",
     "build:lib": "ng build components-library",
-    "gendoc:lib": "npx compodoc -p projects/components-library/tsconfig.lib.json --theme Vagrant",
+    "gendoc:lib": "npx compodoc -p projects/components-library/tsconfig.lib.json --output projects/consumer-app/src/assets/documentation --theme Vagrant",
+    "verdaccio": "verdaccio --config config.yaml",
     "servedoc:lib": "npx compodoc -p projects/components-library/tsconfig.lib.json --theme Vagrant -s"
   },
   "private": true,
@@ -21,14 +26,15 @@
     "@angular/core": "^6.1.0",
     "@angular/forms": "^6.1.0",
     "@angular/http": "^6.1.0",
+    "@angular/material": "latest",
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "@stackblitz/sdk": "^1.3.0",
     "core-js": "^2.5.4",
     "rxjs": "6.0.0",
-    "zone.js": "~0.8.26",
-    "@angular/material": "latest"
+    "abz-components-library": "^0.2.0",
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
@@ -37,10 +43,10 @@
     "@angular/cli": "~6.1.4",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
+    "@compodoc/compodoc": "^1.1.9",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
-    "abz-components-library": "0.0.1",
     "codelyzer": "~4.2.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",

@@ -1,4 +1,6 @@
 # AppWorkspace
+<a name="libdoc">What is this</a>
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
@@ -26,6 +28,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Documentation of library components
+## Local registry
 
-[For documentation about the library](#/documentation/index.html) 
+Run `npm run verdaccio` to start the the local npm registry. Run `npm publish` and `npm install` as you would with a public npm registry.
+Do not forget to  `npm set registry http://localhost:4873` to point to local registry. The proxy setting in the config.yaml file is such that, if dependencies are not found locally , it will fetch them from the public registry.
+
+## Versioning
+
+Helpful commands
+`nom version <version | major | minor | patch> components-libary`
+

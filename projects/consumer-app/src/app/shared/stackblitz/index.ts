@@ -1,1 +1,1 @@
-export * from './stackblitz-button';
+export * from './stackblitz-button.component';
